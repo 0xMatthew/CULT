@@ -1,2 +1,3 @@
 cirq
 matplotlib
+notebook
