@@ -43,7 +43,7 @@ To ensure consistency across various development environments, this project's in
 
 3. Restart your terminal or run `source ~/.bashrc` to reload your `~/.bashrc` file.
 
-4. Install Python 3.12.1:
+4. Install Python 3.12.1 (or latest version):
 
      ```bash
     pyenv install 3.12.1
