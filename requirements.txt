@@ -2,4 +2,6 @@ cirq==0.14.1
 matplotlib==3.6.0
 notebook==6.5.1
 jsonschema==4.0.0 
-
+openfermion
+openfermionpsi4
+openfermionpyscf
