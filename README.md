@@ -43,16 +43,16 @@ To ensure consistency across various development environments, this project's in
 
 3. Restart your terminal or run `source ~/.bashrc` to reload your `~/.bashrc` file.
 
-4. Install Python 3.12.1 (or latest version):
+4. Install Python 3.11.7 (or latest version):
 
      ```bash
-    pyenv install 3.12.1
+    pyenv install 3.11.7
     ```
 
-5. Set Python 3.12.1 as your global Python version:
+5. Set Python 3.11.7 as your global Python version:
 
     ```bash
-    pyenv global 3.12.1
+    pyenv global 3.11.7
     ```
 
     - You can check your Python version by running `python --version`.
@@ -60,7 +60,7 @@ To ensure consistency across various development environments, this project's in
 6. Create a virtual environment for this project:
 
     ```bash
-    pyenv virtualenv 3.12.1 cult
+    pyenv virtualenv 3.11.7 cult
     ```
 
 7. Activate the virtual environment:
@@ -71,9 +71,10 @@ To ensure consistency across various development environments, this project's in
 
     - You should see `(cult)` at the beginning of your terminal prompt, which indicates that you're in the virtual environment.
 
-8. Install the project's dependencies:
+8. Update pip and install the project's dependencies:
 
     ```bash
+    pip install --upgrade pip
     pip install -r requirements.txt
     ```
 
